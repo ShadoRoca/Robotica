@@ -21,12 +21,12 @@ class Square(Node):
 
         def talker():
 
-            pub = rospy.Publisher('/mobile_base/commands/velocity', Twist, queue_size=10)
-            odom_sub = rospy.Subscriber('/odom', Odometry, callback)
+            pub = rclpy.Publisher('/mobile_base/commands/velocity', Twist, queue_size=10)
+            odom_sub = rclpy.Subscriber('/odom', Odometry, callback)
         
-            rospy.init_node('talker', anonymous=True)
+            rclpy.init_node('talker', anonymous=True)
 
-            rate = rospy.Rate(10) # 10hz
+            rate = rclpy.Rate(10) # 10hz
 
             goal_distance = 0.5
             goal_angle = radians(90)
@@ -95,5 +95,5 @@ def main(args=None):
 if _name_ == '_main_':
     try:
         talker()
-    except rospy.ROSInterruptException:
+    except rclpy.ROSInterruptException:
         pass
