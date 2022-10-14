@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Cuadrado/Cuadrado.egg-info/PKG-INFO
+../../build/Cuadrado/Cuadrado.egg-info/SOURCES.txt
+../../build/Cuadrado/Cuadrado.egg-info/dependency_links.txt
+../../build/Cuadrado/Cuadrado.egg-info/entry_points.txt
+../../build/Cuadrado/Cuadrado.egg-info/requires.txt
+../../build/Cuadrado/Cuadrado.egg-info/top_level.txt
+../../build/Cuadrado/Cuadrado.egg-info/zip-safe
+Cuadrado/__init__.py
+Cuadrado/cuadrado_prueba.py
+resource/Cuadrado
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

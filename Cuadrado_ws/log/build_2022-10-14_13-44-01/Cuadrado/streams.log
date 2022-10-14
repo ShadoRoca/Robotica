@@ -1,0 +1,26 @@
+[0.560s] Invoking command in '/home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/src/Cuadrado': PYTHONPATH=/home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Cuadrado build --build-base /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/build/Cuadrado/build install --prefix /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado --record /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/build/Cuadrado/install.log --single-version-externally-managed
+[0.792s] running egg_info
+[0.792s] writing ../../build/Cuadrado/Cuadrado.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../build/Cuadrado/Cuadrado.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/Cuadrado/Cuadrado.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../build/Cuadrado/Cuadrado.egg-info/requires.txt
+[0.793s] writing top-level names to ../../build/Cuadrado/Cuadrado.egg-info/top_level.txt
+[0.794s] reading manifest file '../../build/Cuadrado/Cuadrado.egg-info/SOURCES.txt'
+[0.817s] writing manifest file '../../build/Cuadrado/Cuadrado.egg-info/SOURCES.txt'
+[0.817s] running build
+[0.817s] running build_py
+[0.818s] copying Cuadrado/cuadrado_prueba.py -> /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/build/Cuadrado/build/lib/Cuadrado
+[0.818s] running install
+[0.818s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.818s]   warnings.warn(
+[0.818s] running install_lib
+[0.819s] copying /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/build/Cuadrado/build/lib/Cuadrado/cuadrado_prueba.py -> /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado/lib/python3.10/site-packages/Cuadrado
+[0.820s] byte-compiling /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado/lib/python3.10/site-packages/Cuadrado/cuadrado_prueba.py to cuadrado_prueba.cpython-310.pyc
+[0.820s] running install_data
+[0.821s] running install_egg_info
+[0.822s] removing '/home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado/lib/python3.10/site-packages/Cuadrado-0.0.0-py3.10.egg-info' (and everything under it)
+[0.823s] Copying ../../build/Cuadrado/Cuadrado.egg-info to /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado/lib/python3.10/site-packages/Cuadrado-0.0.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.847s] Installing Cuadrado script to /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado/lib/Cuadrado
+[0.847s] writing list of installed files to '/home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/build/Cuadrado/install.log'
+[0.873s] Invoked command in '/home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/src/Cuadrado' returned '0': PYTHONPATH=/home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Cuadrado build --build-base /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/build/Cuadrado/build install --prefix /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/install/Cuadrado --record /home/rodrigo/Documentos/Escuela/Robotica/Cuadrado_ws/build/Cuadrado/install.log --single-version-externally-managed
